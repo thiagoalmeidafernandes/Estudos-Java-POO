@@ -1,9 +1,9 @@
-public class Pessoa {
-    private String nome;
+public abstract class Pessoa {
+    protected String nome;
     private int idade;
     private char sexo;
 
-    public void fazerAniv(){
+    public void fazerAniversario(){
         this.setIdade(this.idade++);
     }
 
